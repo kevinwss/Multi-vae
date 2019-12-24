@@ -8,7 +8,7 @@ import random
 
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 
-mnist = input_data.read_data_sets('../../MNIST_data', one_hot=True)
+mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 #prepare dataset
 data = mnist.train.images
