@@ -1,12 +1,13 @@
 # Multi-vae
 
+This code will output AUC score for MNIST dataset on 10% anomaly rate. 
 
 Usage:
 
-For multi-vae:
+For propsoed multi-vae:
 
 python multiview-vae.py
 
-For original vae:
+For baseline original vae:
 
 python vae_mnist.py
